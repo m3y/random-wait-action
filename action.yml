@@ -1,5 +1,9 @@
 name: 'Random wait'
+author: 'm3y <ma3ya.ozw+github@gmail.com>'
 description: 'Wait for a random time'
+branding:
+  icon: 'clock'
+  color: 'green'
 inputs:
   max-wait-time:
     description: 'Maximum wait time'
