@@ -1,0 +1,12 @@
+name: 'Random wait'
+description: 'Wait for a random time'
+inputs:
+  max-wait-time:
+    description: 'Maximum wait time'
+    required: false
+    default: 10
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.max-wait-time }}
